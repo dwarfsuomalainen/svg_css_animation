@@ -1,0 +1,41 @@
+#tail {
+  fill: black;
+  position: relative;
+  animation: tail 800ms ease-in infinite;
+}
+
+@keyframes tail {
+  0% {
+    transform: rotateX(3deg) scale(1);
+  }
+  25% {
+    transform: rotateX(19deg) scale(1.05);
+  }
+  50% {
+    transform: rotateX(19deg) scale(1.05);
+  }
+  100% {
+    transform: rotateX(3deg) scale (1);
+  }
+}
+#nose {
+  fill: pink;
+  position: relative;
+  animation-name: nose;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+}
+@keyframes nose {
+  0% {
+    fill: pink;
+    transform: translateY(-8px);
+  }
+  50% {
+    fill: pink;
+    transform: translateY(-16px);
+  }
+  100% {
+    fill: hotpink;
+    transform: translateY(-8px);
+  }
+}
