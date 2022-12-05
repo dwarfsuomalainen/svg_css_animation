@@ -1,15 +1,16 @@
 # CSS Animation assignment
-==HTML5== ==CSS==
+== HTML5 == == CSS ==
 
-# Description
+## Description
 
 1. Image of the dog is from [undraw.co](https://undraw.co/illustrations)
 
-2. Conatins:
-    -[x] doggo's nose sniffin'!
-    -[x] doggo's tail wobblin'!
+2. Conatins :dog: :
+    - [x] doggo's nose sniffin' !
+    - [x] doggo's tail wobblin' ! 
 
-# Project structure
+## Project structure
+```
 .
 ├── README.md
 ├── dist
@@ -17,9 +18,9 @@
 │   └── dog-2.svg
 ├── index.html
 └── styles.css
-
-# Instructions
+```
+## Instructions
 Clone the repository 
-git clone https://github.com/dwarfsuomalainen/fs13-animation.git
-
+`git clone https://github.com/dwarfsuomalainen/fs13-animation.git`
+Project deployed on gh-pages (`https://dwarfsuomalainen.github.io/fs13-animation/`)
 
