@@ -3,7 +3,7 @@
   transform-origin:left;
   transform-box: fill-box;
   animation: tail 1200ms ease-in infinite;
-  z-index: -3;
+  
 }
 
 @keyframes tail {
