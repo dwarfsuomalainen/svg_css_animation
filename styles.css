@@ -1,21 +1,23 @@
 #tail {
   fill: black;
-  position: relative;
-  animation: tail 800ms ease-in infinite;
+  transform-origin:left;
+  transform-box: fill-box;
+  animation: tail 1200ms ease-in infinite;
+  z-index: -3;
 }
 
 @keyframes tail {
   0% {
-    transform: rotateX(3deg) scale(1);
+    transform: rotate(0deg);
   }
-  25% {
-    transform: rotateX(19deg) scale(1.05);
+  33% {
+    transform: rotate(-25deg);
   }
-  50% {
-    transform: rotateX(19deg) scale(1.05);
+  66% {
+    transform: rotate(25deg);
   }
   100% {
-    transform: rotateX(3deg) scale (1);
+    transform: rotate(0deg);
   }
 }
 #nose {
