@@ -1,5 +1,5 @@
 # CSS Animation assignment
-== HTML5 == == CSS ==
+*HTML5* and *CSS* (animation using CSS)
 
 ## Description
 
@@ -21,6 +21,6 @@
 ```
 ## Instructions
 Clone the repository 
-`git clone https://github.com/dwarfsuomalainen/fs13-animation.git`
+`git clone https://github.com/dwarfsuomalainen/fs13-animation.git`<br>
 Project deployed on gh-pages (`https://dwarfsuomalainen.github.io/fs13-animation/`)
 
