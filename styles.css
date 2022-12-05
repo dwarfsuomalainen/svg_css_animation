@@ -1,11 +1,13 @@
+.container{
+  position: relative;
+}
 #tail {
+  position:absolute;
   fill: black;
   transform-origin:left;
   transform-box: fill-box;
   animation: tail 1200ms ease-in infinite;
-  
 }
-
 @keyframes tail {
   0% {
     transform: rotate(0deg);
@@ -29,15 +31,31 @@
 }
 @keyframes nose {
   0% {
-    fill: pink;
-    transform: translateY(-8px);
-  }
-  50% {
-    fill: pink;
-    transform: translateY(-16px);
+    fill: hotpink;
+    transform: translateY(10px);
   }
   100% {
     fill: hotpink;
     transform: translateY(-8px);
+  }
+}
+#Vector_8{
+  position: absolute;
+  animation-name: ear;
+  transform-origin: top;
+  transform-box: box-fill;
+  animation-duration: 800ms;
+  animation-iteration-count: 3;
+
+}
+@keyframes ear {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

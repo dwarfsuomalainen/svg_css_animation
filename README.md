@@ -8,6 +8,7 @@
 2. Conatins :dog: :
     - [x] doggo's nose sniffin' !
     - [x] doggo's tail wobblin' ! 
+    - [x] doggo's ear wavin' ! (three times, not to get the dog tired)
 
 ## Project structure
 ```
